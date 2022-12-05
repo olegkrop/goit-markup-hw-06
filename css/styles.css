@@ -480,7 +480,7 @@ body {
 
 .appeal {
   display: block;
-  line-height: 1.17px;
+  line-height: 1.17;
   color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
