@@ -79,6 +79,7 @@
                 </svg>
               </button>
             </div>
+            <p>Залиште свої дані, ми вам передзвонимо</p>
           </div>
           <button
             type="button"
@@ -425,8 +426,8 @@
     <!--Footer-->
     <footer class="section-footer">
       <div class="container">
-        <div class="footer-divide">
-          <div>
+        <div class="footer-container">
+          <div class="footer-contact-container">
             <!--Footer Logo-->
             <a class="logo link logo-white push-margins" href="./index.html"
               ><span class="logo-left">Web</span>Studio</a
@@ -434,7 +435,7 @@
             <!--Footer Contacts-->
             <address id="contacts">
               <ul class="list footer-contacts">
-                <li class="list">
+                <li class="list push-margins-contacts">
                   <a
                     class="link footer-contact"
                     href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
@@ -443,7 +444,7 @@
                     >м. Київ, пр-т Лесі Украінки, 26</a
                   >
                 </li>
-                <li class="list">
+                <li class="list push-margins-contacts">
                   <a
                     class="link footer-contact darkened"
                     href="mailto:info@devstudio.com"
@@ -460,8 +461,7 @@
               </ul>
             </address>
           </div>
-          <!--Footer Appeal-->
-          <div class="social-margin">
+          <div class="2">
             <p class="appeal">приєднуйтесь</p>
             <!--Footer Social Networks List-->
             <ul class="footer-social-list">
@@ -495,9 +495,19 @@
               </li>
             </ul>
           </div>
+          <div class="2">
+            <p class="appeal">Підпишіться на розсилку</p>
+            <form class="email-form">
+              <label>
+                <input type="email" name="user-email" placeholder="Email" />
+              </label>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
