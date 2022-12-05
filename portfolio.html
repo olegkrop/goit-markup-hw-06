@@ -329,8 +329,9 @@
     <!--Footer-->
     <footer class="section-footer">
       <div class="container">
-        <div class="footer-divide">
-          <div>
+        <div class="footer-container">
+          <div class="footer-contact-container">
+
             <!--Footer Logo-->
             <a class="logo link logo-white push-margins" href="./index.html"
               ><span class="logo-left">Web</span>Studio</a
@@ -340,7 +341,7 @@
               <ul class="list footer-contacts">
                 <li class="list">
                   <a
-                    class="link footer-contact"
+                    class="link footer-contact push-margins-contacts"
                     href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -349,7 +350,7 @@
                 </li>
                 <li class="list">
                   <a
-                    class="link footer-contact darkened"
+                    class="link footer-contact push-margins-contacts darkened"
                     href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
@@ -364,8 +365,7 @@
               </ul>
             </address>
           </div>
-          <!--Footer Appeal-->
-          <div class="social-margin">
+          <div>
             <p class="appeal">приєднуйтесь</p>
             <!--Footer Social Networks List-->
             <ul class="footer-social-list">
@@ -398,6 +398,25 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div>
+            <form name="subscribe-form" class="push-left">
+              <p class="subscribe-title">Підпишіться на розсилку</p>
+              <div class="subscribe-block">
+                <input
+                  class="subscribe-input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="E-mail"
+                />
+                <button class="subscribe-button" type="submit">
+                  Підписатися<svg class="subscribe-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
