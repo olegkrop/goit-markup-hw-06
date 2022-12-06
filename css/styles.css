@@ -238,6 +238,7 @@ body {
 .hero-button:focus {
   color: var(--white-color);
   background-color: var(--hero-button-active);
+    cursor: pointer;
 }
 
 /* Features */
